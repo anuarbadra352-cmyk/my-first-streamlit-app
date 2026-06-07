@@ -1,0 +1,2093 @@
+{
+  "source": "《计算机操作系统(慕课版)》期末考试卷及评分标准(1.7).docx.docx",
+  "title": "计算机操作系统（慕课版）期末考试卷及评分标准",
+  "chapters": [
+    {
+      "title": "期末考试卷（第1套） / 单项选择题",
+      "questions": [
+        {
+          "id": "os-final-single_choice-2",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 2,
+          "answer": "B",
+          "options": {
+            "A": "[-2，2]",
+            "B": "[-1，2]",
+            "C": "[0，2]",
+            "D": "[-3，2]"
+          },
+          "question": "若信号量S的初值为2，且有3个进程共享此信号量，则S的取值范围是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-3",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 3,
+          "answer": "B",
+          "options": {
+            "A": "该单缓冲区",
+            "B": "两进程的临界区",
+            "C": "两进程的程序",
+            "D": "两进程的控制块"
+          },
+          "question": "为了使A、B两个进程互斥地访问单个缓冲区，应为设置一个互斥信号量S，初值为1，相应的P(S)、V(S)作必须分别安排在（ ）的两端。"
+        },
+        {
+          "id": "os-final-single_choice-4",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 4,
+          "answer": "B",
+          "options": {
+            "A": "虚拟存储只能基于连续分配技术",
+            "B": "虚拟存储只能基于非连续分配技术",
+            "C": "虚拟存储容量只受外存容量的限制",
+            "D": "虚拟存储容量只受内存容量的限制"
+          },
+          "question": "下列关于虚拟存储的叙述中，正确的是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-5",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 5,
+          "answer": "D",
+          "options": {
+            "A": "碎片",
+            "B": "CPU空闲",
+            "C": "多重中断",
+            "D": "抖动"
+          },
+          "question": "操作系统处理缺页中断时，选择一种好的调度算法对主存和辅存中信息进行高效调度，尽可能地避免（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-6",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 6,
+          "answer": "D",
+          "options": {
+            "A": "在分时系统中，进程P的优先级最高",
+            "B": "抢占调度方式，就绪队列上的所有进程的优先级均比P的低",
+            "C": "就绪队列为空队列",
+            "D": "抢占调度方式，P的优先级高于当前运行的进程"
+          },
+          "question": "若进程P一旦被唤醒就能够投入运行，系统可能为（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-7",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 7,
+          "answer": "B",
+          "options": {
+            "A": "时间片轮转法",
+            "B": "最短寻找时间优先算法",
+            "C": "LRU算法",
+            "D": "优先级高者优先算法"
+          },
+          "question": "下列算法中用于磁盘移臂调度的是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-8",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 8,
+          "answer": "D",
+          "options": {
+            "A": "程序I/O方式",
+            "B": "中断驱动I/O控制方式",
+            "C": "DMA控制方式",
+            "D": "I/O通道控制方式"
+          },
+          "question": "在下面的I/O控制方式中，需要CPU干预最少的方式是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-10",
+          "chapter": "期末考试卷（第1套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 10,
+          "answer": "D",
+          "options": {
+            "A": "实现虚拟存储",
+            "B": "保存系统文档",
+            "C": "保存用户和系统文档",
+            "D": "实现对文件的按名存取"
+          },
+          "question": "从用户的角度看，引入文件系统的主要目的是（ ）。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第1套） / 填空/简答题",
+      "questions": [
+        {
+          "id": "os-final-short_answer-1",
+          "chapter": "期末考试卷（第1套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 1,
+          "answer": "预防",
+          "options": {},
+          "question": "对待死锁，一般考虑死锁的（ ）、避免、检测和解除四个问题。"
+        },
+        {
+          "id": "os-final-short_answer-2",
+          "chapter": "期末考试卷（第1套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 2,
+          "answer": "就绪",
+          "options": {},
+          "question": "一个刚刚被创建的进程有时是不能立即得到处理器运行（当有进程在运行时），这时它处于（ ）态。"
+        },
+        {
+          "id": "os-final-short_answer-3",
+          "chapter": "期末考试卷（第1套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 3,
+          "answer": "进程",
+          "options": {},
+          "question": "在引入线程的操作系统中，独立调度和分派的基本单位是线程，资源分配的单位是（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-4",
+          "chapter": "期末考试卷（第1套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 4,
+          "answer": "1",
+          "options": {},
+          "question": "若P、V操作的信号量S初值为2，当前值为-1，则表示有（ ）个等待进程。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第1套） / 综合应用题",
+      "questions": [
+        {
+          "id": "os-final-essay-2",
+          "chapter": "期末考试卷（第1套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 2,
+          "answer": "A",
+          "options": {},
+          "question": "（8分）在银行家算法的例子中，若出现下述资源分配情况如下表所示。 试问：（1）该状态是否安全？安全给出安全序列，不安全给出理由。 （2）若进程P2提出请求Request(1，2，2，2)后，系统能否将资源分配给它？（要说明理由）"
+        },
+        {
+          "id": "os-final-essay-3",
+          "chapter": "期末考试卷（第1套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 3,
+          "answer": "C",
+          "options": {},
+          "question": "（8分）有5个任务A、B、C、D、E，它们几乎同时到达，预计它们的运行时间为10、6、2、4、8min。其优先级分别为3、5、2、1和4，这里5为最高优先级。对于下列每一种调度算法，写出执行序列，并计算其平均进程周转时间（进程切换开销可不考虑）。 （1）先来先服务(按A、B、C、D、E)算法； （2）优先级调度算法。"
+        },
+        {
+          "id": "os-final-essay-4",
+          "chapter": "期末考试卷（第1套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 4,
+          "answer": "C",
+          "options": {},
+          "question": "（8分）考虑下述页面走向： 1，2，3，4，2，1，5，6，2，1，2，3，7，6，3，2，1，2，3，6，当分配的内存块数量为5时，试画出LRU、FIFO这两种置换算法的页面置换图，并计算出它们的缺页率。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第2套） / 单项选择题",
+      "questions": [
+        {
+          "id": "os-final-single_choice-1",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 1,
+          "answer": "并发",
+          "options": {
+            "A": "程序",
+            "B": "内存",
+            "C": "CPU",
+            "D": "中断"
+          },
+          "question": "若把操作系统视为计算机资源的管理者，下列的（ ）不属于操作系统所管理的资源。"
+        },
+        {
+          "id": "os-final-single_choice-2-2",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 2,
+          "answer": "1、3、4、2",
+          "options": {
+            "A": "输入一批数据",
+            "B": "进程调度",
+            "C": "分给它一个时间片",
+            "D": "进入内存"
+          },
+          "question": "当一个进程处于等待（ ）状态时，成为阻塞状态。"
+        },
+        {
+          "id": "os-final-single_choice-3-2",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 3,
+          "answer": "1~-(m-1)",
+          "options": {
+            "A": "2",
+            "B": "1",
+            "C": "3",
+            "D": "0.5"
+          },
+          "question": "一个作业8：00到达系统，估计运行时间为1小时。若从10:00开始执行该作业，则其响应比是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-4-2",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 4,
+          "answer": "静态重定位",
+          "options": {
+            "A": "进程相应程序段的长度",
+            "B": "进程总共需要运行时间的多少",
+            "C": "进程自身和进程调度策略",
+            "D": "进程完成什么功能"
+          },
+          "question": "在单CPU的多进程系统中，进程切换时，什么时候占用CPU以及占用多长时间取决于（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-5-2",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 5,
+          "answer": "",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "question": "某系统中有11台打印机，n个进程共享打印机资源，每个进程要求获得3台打印机，当n的取值不超过（ ）时，系统不会发生死锁。"
+        },
+        {
+          "id": "os-final-single_choice-6-2",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 6,
+          "answer": "",
+          "options": {
+            "A": "消息传递",
+            "B": "管道",
+            "C": "共享存储区",
+            "D": "信号量"
+          },
+          "question": "与E-mail类似的进程间数据通信机制是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-7-2",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 7,
+          "answer": "",
+          "options": {
+            "A": "便于地址变换",
+            "B": "合并分配区",
+            "C": "增加内存容量",
+            "D": "合并空闲分区"
+          },
+          "question": "在可变分区存储管理中，采用紧凑技术的目的是（）。"
+        },
+        {
+          "id": "os-final-single_choice-8-2",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 8,
+          "answer": "",
+          "options": {
+            "A": "减少",
+            "B": "增加",
+            "C": "无影响",
+            "D": "可能增加也可能减少"
+          },
+          "question": "在请求分页存储管理中，若采用FIFO页面淘汰算法，则当分配的页面数增加时，缺页中断的次数（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-9",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 9,
+          "answer": "",
+          "options": {
+            "A": "每个进程拥有一张页表，且进程的页表驻留在内存中",
+            "B": "每个进程拥有一张页表，但只有当前运行进程的页表驻留在内存中",
+            "C": "所有进程共享一张页表以节约有限的内存，但页表必须驻留在内存中",
+            "D": "所有进程共享一张页表，只有页表中当前使用的页必须驻留在内存中"
+          },
+          "question": "操作系统采用分页存储管理方式，要求（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-12",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 12,
+          "answer": "",
+          "options": {
+            "A": "文件目录查询",
+            "B": "磁盘驱动调度",
+            "C": "磁盘空间管理",
+            "D": "请求分页存储管理中的页面调度"
+          },
+          "question": "位示图方法可用于（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-13",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 13,
+          "answer": "",
+          "options": {
+            "A": "64KB",
+            "B": "128MB",
+            "C": "32MB",
+            "D": "以上都不对"
+          },
+          "question": "文件系统采用两级索引分配方式，若每个物理块的大小是1KB，每个物理块号占4个字节（4B），则该系统中单个文件允许的最大长度是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-14",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 14,
+          "answer": "",
+          "options": {
+            "A": "连续分配",
+            "B": "链接分配",
+            "C": "索引分配",
+            "D": "A~D都适合"
+          },
+          "question": "下面不适合于直接存取的外存分配方式是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-15",
+          "chapter": "期末考试卷（第2套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 15,
+          "answer": "",
+          "options": {
+            "A": "堆栈",
+            "B": "指针",
+            "C": "路径",
+            "D": "目录"
+          },
+          "question": "文件系统采用（ ）组织文件。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第2套） / 填空/简答题",
+      "questions": [
+        {
+          "id": "os-final-short_answer-2-2",
+          "chapter": "期末考试卷（第2套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 2,
+          "answer": "D",
+          "options": {},
+          "question": "设有一组作业，它们的提交时间及运行时间如下表所示。则在单道方式下，采用短作业优先调度算法，作业的执行顺序是（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-3-2",
+          "chapter": "期末考试卷（第2套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 3,
+          "answer": "C",
+          "options": {},
+          "question": "有m个进程共享一个同类临界资源，如使用信号量解决进程间的互斥问题，则信号量的取值范围为（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-4-2",
+          "chapter": "期末考试卷（第2套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 4,
+          "answer": "A",
+          "options": {},
+          "question": "将逻辑地址转换成物理地址的工作称为（ ），由装入程序实施的这种地址转换方式称为（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-5",
+          "chapter": "期末考试卷（第2套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 5,
+          "answer": "C",
+          "options": {},
+          "question": "常用的可变分区分配算法中，（ ）算法有利于大作业装入，但会使主存低地址和高地址两端的分区利用不均衡。"
+        },
+        {
+          "id": "os-final-short_answer-6",
+          "chapter": "期末考试卷（第2套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 6,
+          "answer": "B",
+          "options": {},
+          "question": "设有8页的逻辑空间，每页有1024字节，它们被映射到32块物理存储区中，那么，逻辑地址的有效位是（ ）位，物理地址至少是（ ）位。"
+        },
+        {
+          "id": "os-final-short_answer-8",
+          "chapter": "期末考试卷（第2套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 8,
+          "answer": "A",
+          "options": {},
+          "question": "从用户的角度看，文件系统的功能是要实现（ ）。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第2套） / 综合应用题",
+      "questions": [
+        {
+          "id": "os-final-essay-3-2",
+          "chapter": "期末考试卷（第2套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 3,
+          "answer": "5",
+          "options": {},
+          "question": "某采用页式存储管理的系统，接收了一个共7页的作业，作业执行时依次访问的页为：1、2、3、4、2、1、5、6、2、1、2、3、7 。当内存块数量为4时，请问，若分别采用先进先出（FIFO）置换算法和最近最久未使用（LRU）置换算法，作业执行过程中会产生多少次缺页中断？产生缺页中断后依次应淘汰的页是那些？（注：所有内存开始为空）"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第3套） / 单项选择题",
+      "questions": [
+        {
+          "id": "os-final-single_choice-2-3",
+          "chapter": "期末考试卷（第3套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 2,
+          "answer": "B",
+          "options": {
+            "A": "先来先服务",
+            "B": "非抢占式短任务优先",
+            "C": "时间片轮转",
+            "D": "高响应比优先"
+          },
+          "question": "下列选项中，满足短任务优先且不会发生饥饿的调度算法是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-3-3",
+          "chapter": "期末考试卷（第3套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 3,
+          "answer": "B",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "question": "某计算机系统中有8台打印机，有K个进程竞争使用，每个进程最多需要3台打印机。该系统可能会发生死锁的K的最小值是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-4-3",
+          "chapter": "期末考试卷（第3套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 4,
+          "answer": "C",
+          "options": {
+            "A": "越界地址保护",
+            "B": "程序代码保护",
+            "C": "数据保护",
+            "D": "栈保护"
+          },
+          "question": "分区分配内存管理方式的主要保护措施是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-5-3",
+          "chapter": "期末考试卷（第3套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 5,
+          "answer": "D",
+          "options": {
+            "A": "2的12次方字节",
+            "B": "2的16次方字节",
+            "C": "2的20次方字节",
+            "D": "2的32次方字节"
+          },
+          "question": "一个分段存储管理系统中，地址长度为32位，其中段号占12位，则段长最大是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-6-3",
+          "chapter": "期末考试卷（第3套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 6,
+          "answer": "D",
+          "options": {
+            "A": "虚拟存储只能基于连续分配技术",
+            "B": "虚拟存储只能基于非连续分配技术",
+            "C": "虚拟存储容量只受外存容量的限制",
+            "D": "虚拟存储容量只受内存容量的限制"
+          },
+          "question": "下列关于虚拟存储的叙述中，正确的是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-8-3",
+          "chapter": "期末考试卷（第3套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 8,
+          "answer": "C",
+          "options": {
+            "A": "当系统处于安全状态时，系统中一定无死锁进程",
+            "B": "银行家算法可以预防死锁",
+            "C": "当系统处于不安全状态时，系统中一定会出现死锁进程",
+            "D": "银行家算法破坏了死锁必要条件中的“请求和保持”条件"
+          },
+          "question": "下列关于银行家算法的叙述中，正确的是（ ）。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第3套） / 填空/简答题",
+      "questions": [
+        {
+          "id": "os-final-short_answer-1-2",
+          "chapter": "期末考试卷（第3套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 1,
+          "answer": "PCB",
+          "options": {},
+          "question": "一次仅允许一个进程使用的资源称为（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-2-3",
+          "chapter": "期末考试卷（第3套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 2,
+          "answer": "输出井",
+          "options": {},
+          "question": "在引入线程的操作系统中，独立调度和分派的基本单位是线程，资源分配的单位是（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-4-3",
+          "chapter": "期末考试卷（第3套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 4,
+          "answer": "地址越界",
+          "options": {},
+          "question": "内存中各存储单元的地址是从统一的基地址顺序编址，这种地址称为（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-5-2",
+          "chapter": "期末考试卷（第3套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 5,
+          "answer": "15",
+          "options": {},
+          "question": "某虚拟存储器的用户编程空间共32个页面，每页为1KB，内存为16KB。假定某时刻一用户页表中已调入内存的页面的页号和物理块号的对照表如下表，则逻辑地址357所对应的物理地址为（ ），2456所对应的物理地址为（ ）。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第3套） / 综合应用题",
+      "questions": [
+        {
+          "id": "os-final-essay-2-2",
+          "chapter": "期末考试卷（第3套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 2,
+          "answer": "C",
+          "options": {},
+          "question": "（4分）处理死锁的四种基本方法是什么？"
+        },
+        {
+          "id": "os-final-essay-1",
+          "chapter": "期末考试卷（第3套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 1,
+          "answer": "A",
+          "options": {},
+          "question": "（6分）在银行家算法的例子中，若出现下述资源分配情况： 试问：（1）该状态是否安全？安全给出安全序列，不安全给出理由。（3分） （2）若进程P2提出请求Request(1，2，2，2)后，系统能否将资源分配给它？（要说明理由，3分）"
+        },
+        {
+          "id": "os-final-essay-2-3",
+          "chapter": "期末考试卷（第3套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 2,
+          "answer": "C",
+          "options": {},
+          "question": "（6分）考虑下述页面走向1，2，3，4，2，1，5，6，2，1，2，3，7，6，3，2，1，2，3，6，当内存块数量为5时，试画出LRU、FIFO这两种置换算法的页面置换图，并计算出它们的缺页率。"
+        },
+        {
+          "id": "os-final-essay-3-3",
+          "chapter": "期末考试卷（第3套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 3,
+          "answer": "D",
+          "options": {},
+          "question": "（10分）考虑一个涉及到如下磁道的按时间有序的请求访问序列，98，183，37，122，14，124，65，67，如果磁头的初始位置在53磁道。试问： （1）若按最短寻找时间优先算法，服务完上述请求序列后，磁头总计移动多少个磁道？ （2）若按先来先服务算法，服务完上述请求序列后，磁头总计要移动多少个磁道？"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第4套） / 单项选择题",
+      "questions": [
+        {
+          "id": "os-final-single_choice-1-2",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 1,
+          "answer": "临界区",
+          "options": {
+            "A": "盘空间的管理",
+            "B": "盘的驱动调度",
+            "C": "文件目录的查找",
+            "D": "页式虚拟存贮管理中的页面调度"
+          },
+          "question": "位示图方法可用于（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-2-4",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 2,
+          "answer": "0",
+          "options": {
+            "A": "5",
+            "B": "2",
+            "C": "1",
+            "D": "0"
+          },
+          "question": "设有5个进程共享一个互斥段，如果最多允许两个进程同时进入互斥段,则所采用的互斥信号量初值应该是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-4-4",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 4,
+          "answer": "重定位",
+          "options": {
+            "A": "串连结构",
+            "B": "索引结构",
+            "C": "连续结构",
+            "D": "其他结构"
+          },
+          "question": "采用直接存取法来读写盘上的物理记录时，效率最高的是（ ）文件。"
+        },
+        {
+          "id": "os-final-single_choice-5-4",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 5,
+          "answer": "3",
+          "options": {
+            "A": "FCFS",
+            "B": "SSJF",
+            "C": "优先数法",
+            "D": "轮转法"
+          },
+          "question": "最适合分时系统的进程调度算法是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-7-3",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 7,
+          "answer": "",
+          "options": {
+            "A": "静态重定位",
+            "B": "动态重定位",
+            "C": "动态链接",
+            "D": "静态链接"
+          },
+          "question": "如果要使装入内存的目标程序，在内存中移动后能正常运行，必须要有（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-8-4",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 8,
+          "answer": "",
+          "options": {
+            "A": "内存管理",
+            "B": "设备管理",
+            "C": "进程调度",
+            "D": "作业调度"
+          },
+          "question": "决定一个程序是否能占用处理机执行，是由（ ）机构决定的。"
+        },
+        {
+          "id": "os-final-single_choice-9-2",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 9,
+          "answer": "",
+          "options": {
+            "A": "JCB",
+            "B": "线程",
+            "C": "目录",
+            "D": "页表"
+          },
+          "question": "（ ）与进程是一对一的关系，操作系统通过它实现地址变换。"
+        },
+        {
+          "id": "os-final-single_choice-10-2",
+          "chapter": "期末考试卷（第4套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 10,
+          "answer": "",
+          "options": {
+            "A": "FCFS 15次",
+            "B": "LFU 9次",
+            "C": "FIFO 6次",
+            "D": "LRU 8次"
+          },
+          "question": "在页式存储管理方式中，对于一逻辑页面访问请求量，最佳页面置换算法发生10次缺页，推断出其他页面置换算法可能发生的缺页次数如下，最可信的次数是（ ）。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第4套） / 填空/简答题",
+      "questions": [
+        {
+          "id": "os-final-short_answer-1-3",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 1,
+          "answer": "",
+          "options": {},
+          "question": "进程的状态和优先级信息存放在（ ）中。"
+        },
+        {
+          "id": "os-final-short_answer-3-3",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 3,
+          "answer": "",
+          "options": {},
+          "question": "缓冲的引入可以缓和CPU和I/O设备间（ ）的矛盾。"
+        },
+        {
+          "id": "os-final-short_answer-5-3",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 5,
+          "answer": "",
+          "options": {},
+          "question": "设有8页的逻辑空间，每页1024字节，它们被映射到32块的物理存储区中。则逻辑地址的有效位是（ ）位，物理地址至少是（ ）位。"
+        },
+        {
+          "id": "os-final-short_answer-6-2",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 6,
+          "answer": "",
+          "options": {},
+          "question": "如果系统中有n个进程，则在等待队列中进程的个数最多为（ ）个。"
+        },
+        {
+          "id": "os-final-short_answer-7",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 7,
+          "answer": "",
+          "options": {},
+          "question": "在操作系统中，不可中断执行的操作称为（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-8-2",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 8,
+          "answer": "",
+          "options": {},
+          "question": "如果信号量的当前值为-4，则表示系统中在该信号量上有（ ）个等待进程。"
+        },
+        {
+          "id": "os-final-short_answer-9",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 9,
+          "answer": "",
+          "options": {},
+          "question": "若使当前运行的进程总是优先级最高的进程，应选择（ ）进程调度算法。"
+        },
+        {
+          "id": "os-final-short_answer-10",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 10,
+          "answer": "",
+          "options": {},
+          "question": "并发进程中涉及相同变量的程序段叫做临界区，对这些程序段要执行（ ）操作。"
+        },
+        {
+          "id": "os-final-short_answer-11",
+          "chapter": "期末考试卷（第4套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 11,
+          "answer": "",
+          "options": {},
+          "question": "目前认为逻辑文件有两种类型，即（ ）文件与（ ）文件。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第5套） / 综合应用题",
+      "questions": [
+        {
+          "id": "os-final-essay-2-4",
+          "chapter": "期末考试卷（第5套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 2,
+          "answer": "",
+          "options": {},
+          "question": "假设磁盘共有200个柱面，编号从0～199。当前存取臂在120号柱面上服务，并刚刚完成了105号柱面的请求。如果现有进程P1、P2、P3和P4分别请求的柱面号为186、l58、115、90。按下列3种算法调度时，试问：①系统调度的次序是什么？②存取臂移动总量为多少？ （1）先来先服务 （2）最短寻道时间优先 （3）电梯调度算法 期末考试卷（五） 考试时间： 120 分钟 考试形式：（闭卷）"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第5套） / 单项选择题",
+      "questions": [
+        {
+          "id": "os-final-single_choice-1-3",
+          "chapter": "期末考试卷（第5套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 1,
+          "answer": "",
+          "options": {
+            "A": "节省主存空间",
+            "B": "物理上扩充主存容量",
+            "C": "实现外存共享",
+            "D": "提高CPU效率"
+          },
+          "question": "在存储管理中，采用覆盖与交换技术的目的是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-2-5",
+          "chapter": "期末考试卷（第5套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 2,
+          "answer": "",
+          "options": {
+            "A": "439",
+            "B": "459",
+            "C": "469",
+            "D": "479"
+          },
+          "question": "假设读写磁头正在55号柱面上操作，现有依次请求访问的柱面号为100、185、39、124、16。当55号柱面操作完成后，若采用先来先服务的调度算法，为完成这些请求，磁头需要移动的柱面距离数是（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-6-4",
+          "chapter": "期末考试卷（第5套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 6,
+          "answer": "",
+          "options": {
+            "A": "执行并行操作",
+            "B": "撤消进程",
+            "C": "拒绝分配新资源",
+            "D": "修改信号量"
+          },
+          "question": "采用资源剥夺法可解除死锁，还可以采用（ ）方法解除死锁。"
+        },
+        {
+          "id": "os-final-single_choice-7-4",
+          "chapter": "期末考试卷（第5套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 7,
+          "answer": "",
+          "options": {
+            "A": "启动",
+            "B": "数据传送",
+            "C": "寻找定位",
+            "D": "搜索延迟"
+          },
+          "question": "对磁盘进行移臂调度其目的是缩短（ ）时间。"
+        },
+        {
+          "id": "os-final-single_choice-9-3",
+          "chapter": "期末考试卷（第5套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 9,
+          "answer": "",
+          "options": {
+            "A": "阻塞",
+            "B": "执行",
+            "C": "唤醒",
+            "D": "挂起"
+          },
+          "question": "某进程所要求的一次打印输出结束，该进程被（ ）。"
+        },
+        {
+          "id": "os-final-single_choice-10-3",
+          "chapter": "期末考试卷（第5套） / 单项选择题",
+          "type": "single_choice",
+          "typeName": "单项选择题",
+          "number": 10,
+          "answer": "",
+          "options": {
+            "A": "节省内存",
+            "B": "提高I/O设备的效率",
+            "C": "提高CPU的利用率",
+            "D": "改善CPU和I/O设备之间速度不匹配的情况"
+          },
+          "question": "引入缓冲的主要目的是（ ）。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第5套） / 填空/简答题",
+      "questions": [
+        {
+          "id": "os-final-short_answer-1-4",
+          "chapter": "期末考试卷（第5套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 1,
+          "answer": "",
+          "options": {},
+          "question": "一次仅允许一个进程使用的资源叫（ ），一个进程访问这类资源的代码叫（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-2-4",
+          "chapter": "期末考试卷（第5套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 2,
+          "answer": "",
+          "options": {},
+          "question": "有n个并发进程竞争必须互斥使用的共享资源时，若某进程作为第一个使用资源者调用P操作后，则这时信号量的值为（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-3-4",
+          "chapter": "期末考试卷（第5套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 3,
+          "answer": "",
+          "options": {},
+          "question": "系统有某类资源20个，供若干进程共享。若每个进程申请该类的资源量不超过4个，为保证系统的安全，应限制共享该类资源的进程数最多不超过（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-4-4",
+          "chapter": "期末考试卷（第5套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 4,
+          "answer": "",
+          "options": {},
+          "question": "在采用多道程序设计技术的系统中，用户编写程序时使用的地址是（ ），装入内存后的地址为（ ），这种地址转换的过程叫做（ ）。"
+        },
+        {
+          "id": "os-final-short_answer-5-4",
+          "chapter": "期末考试卷（第5套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 5,
+          "answer": "",
+          "options": {},
+          "question": "段页式管理中，每取一数据，要访问（ ）次内存。"
+        },
+        {
+          "id": "os-final-short_answer-7-2",
+          "chapter": "期末考试卷（第5套） / 填空/简答题",
+          "type": "short_answer",
+          "typeName": "填空/简答题",
+          "number": 7,
+          "answer": "",
+          "options": {},
+          "question": "设备管理的（ ）功能来实现使用用户所编制的程序与实际使用的物理设备无关。"
+        }
+      ]
+    },
+    {
+      "title": "期末考试卷（第5套） / 综合应用题",
+      "questions": [
+        {
+          "id": "os-final-essay-1-2",
+          "chapter": "期末考试卷（第5套） / 综合应用题",
+          "type": "essay",
+          "typeName": "综合应用题",
+          "number": 1,
+          "answer": "",
+          "options": {},
+          "question": "（10分）假设某程序的页面访问序列为1、2、3、4、5、2、3、1、2、3、4、5、1、2、3、4且开始执行时主存中没有页面，分配给该程序的物理块数是3，使用下列替换算法，求出现置换的次数及缺页率。（1）FIFO替换算法（2）LRU替换算法。"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "os-final-single_choice-2",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 2,
+      "answer": "B",
+      "options": {
+        "A": "[-2，2]",
+        "B": "[-1，2]",
+        "C": "[0，2]",
+        "D": "[-3，2]"
+      },
+      "question": "若信号量S的初值为2，且有3个进程共享此信号量，则S的取值范围是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-3",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 3,
+      "answer": "B",
+      "options": {
+        "A": "该单缓冲区",
+        "B": "两进程的临界区",
+        "C": "两进程的程序",
+        "D": "两进程的控制块"
+      },
+      "question": "为了使A、B两个进程互斥地访问单个缓冲区，应为设置一个互斥信号量S，初值为1，相应的P(S)、V(S)作必须分别安排在（ ）的两端。"
+    },
+    {
+      "id": "os-final-single_choice-4",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 4,
+      "answer": "B",
+      "options": {
+        "A": "虚拟存储只能基于连续分配技术",
+        "B": "虚拟存储只能基于非连续分配技术",
+        "C": "虚拟存储容量只受外存容量的限制",
+        "D": "虚拟存储容量只受内存容量的限制"
+      },
+      "question": "下列关于虚拟存储的叙述中，正确的是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-5",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 5,
+      "answer": "D",
+      "options": {
+        "A": "碎片",
+        "B": "CPU空闲",
+        "C": "多重中断",
+        "D": "抖动"
+      },
+      "question": "操作系统处理缺页中断时，选择一种好的调度算法对主存和辅存中信息进行高效调度，尽可能地避免（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-6",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 6,
+      "answer": "D",
+      "options": {
+        "A": "在分时系统中，进程P的优先级最高",
+        "B": "抢占调度方式，就绪队列上的所有进程的优先级均比P的低",
+        "C": "就绪队列为空队列",
+        "D": "抢占调度方式，P的优先级高于当前运行的进程"
+      },
+      "question": "若进程P一旦被唤醒就能够投入运行，系统可能为（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-7",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 7,
+      "answer": "B",
+      "options": {
+        "A": "时间片轮转法",
+        "B": "最短寻找时间优先算法",
+        "C": "LRU算法",
+        "D": "优先级高者优先算法"
+      },
+      "question": "下列算法中用于磁盘移臂调度的是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-8",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 8,
+      "answer": "D",
+      "options": {
+        "A": "程序I/O方式",
+        "B": "中断驱动I/O控制方式",
+        "C": "DMA控制方式",
+        "D": "I/O通道控制方式"
+      },
+      "question": "在下面的I/O控制方式中，需要CPU干预最少的方式是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-10",
+      "chapter": "期末考试卷（第1套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 10,
+      "answer": "D",
+      "options": {
+        "A": "实现虚拟存储",
+        "B": "保存系统文档",
+        "C": "保存用户和系统文档",
+        "D": "实现对文件的按名存取"
+      },
+      "question": "从用户的角度看，引入文件系统的主要目的是（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-1",
+      "chapter": "期末考试卷（第1套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 1,
+      "answer": "预防",
+      "options": {},
+      "question": "对待死锁，一般考虑死锁的（ ）、避免、检测和解除四个问题。"
+    },
+    {
+      "id": "os-final-short_answer-2",
+      "chapter": "期末考试卷（第1套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 2,
+      "answer": "就绪",
+      "options": {},
+      "question": "一个刚刚被创建的进程有时是不能立即得到处理器运行（当有进程在运行时），这时它处于（ ）态。"
+    },
+    {
+      "id": "os-final-short_answer-3",
+      "chapter": "期末考试卷（第1套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 3,
+      "answer": "进程",
+      "options": {},
+      "question": "在引入线程的操作系统中，独立调度和分派的基本单位是线程，资源分配的单位是（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-4",
+      "chapter": "期末考试卷（第1套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 4,
+      "answer": "1",
+      "options": {},
+      "question": "若P、V操作的信号量S初值为2，当前值为-1，则表示有（ ）个等待进程。"
+    },
+    {
+      "id": "os-final-essay-2",
+      "chapter": "期末考试卷（第1套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 2,
+      "answer": "A",
+      "options": {},
+      "question": "（8分）在银行家算法的例子中，若出现下述资源分配情况如下表所示。 试问：（1）该状态是否安全？安全给出安全序列，不安全给出理由。 （2）若进程P2提出请求Request(1，2，2，2)后，系统能否将资源分配给它？（要说明理由）"
+    },
+    {
+      "id": "os-final-essay-3",
+      "chapter": "期末考试卷（第1套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 3,
+      "answer": "C",
+      "options": {},
+      "question": "（8分）有5个任务A、B、C、D、E，它们几乎同时到达，预计它们的运行时间为10、6、2、4、8min。其优先级分别为3、5、2、1和4，这里5为最高优先级。对于下列每一种调度算法，写出执行序列，并计算其平均进程周转时间（进程切换开销可不考虑）。 （1）先来先服务(按A、B、C、D、E)算法； （2）优先级调度算法。"
+    },
+    {
+      "id": "os-final-essay-4",
+      "chapter": "期末考试卷（第1套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 4,
+      "answer": "C",
+      "options": {},
+      "question": "（8分）考虑下述页面走向： 1，2，3，4，2，1，5，6，2，1，2，3，7，6，3，2，1，2，3，6，当分配的内存块数量为5时，试画出LRU、FIFO这两种置换算法的页面置换图，并计算出它们的缺页率。"
+    },
+    {
+      "id": "os-final-single_choice-1",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 1,
+      "answer": "并发",
+      "options": {
+        "A": "程序",
+        "B": "内存",
+        "C": "CPU",
+        "D": "中断"
+      },
+      "question": "若把操作系统视为计算机资源的管理者，下列的（ ）不属于操作系统所管理的资源。"
+    },
+    {
+      "id": "os-final-single_choice-2-2",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 2,
+      "answer": "1、3、4、2",
+      "options": {
+        "A": "输入一批数据",
+        "B": "进程调度",
+        "C": "分给它一个时间片",
+        "D": "进入内存"
+      },
+      "question": "当一个进程处于等待（ ）状态时，成为阻塞状态。"
+    },
+    {
+      "id": "os-final-single_choice-3-2",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 3,
+      "answer": "1~-(m-1)",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "0.5"
+      },
+      "question": "一个作业8：00到达系统，估计运行时间为1小时。若从10:00开始执行该作业，则其响应比是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-4-2",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 4,
+      "answer": "静态重定位",
+      "options": {
+        "A": "进程相应程序段的长度",
+        "B": "进程总共需要运行时间的多少",
+        "C": "进程自身和进程调度策略",
+        "D": "进程完成什么功能"
+      },
+      "question": "在单CPU的多进程系统中，进程切换时，什么时候占用CPU以及占用多长时间取决于（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-5-2",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 5,
+      "answer": "",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7"
+      },
+      "question": "某系统中有11台打印机，n个进程共享打印机资源，每个进程要求获得3台打印机，当n的取值不超过（ ）时，系统不会发生死锁。"
+    },
+    {
+      "id": "os-final-single_choice-6-2",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 6,
+      "answer": "",
+      "options": {
+        "A": "消息传递",
+        "B": "管道",
+        "C": "共享存储区",
+        "D": "信号量"
+      },
+      "question": "与E-mail类似的进程间数据通信机制是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-7-2",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 7,
+      "answer": "",
+      "options": {
+        "A": "便于地址变换",
+        "B": "合并分配区",
+        "C": "增加内存容量",
+        "D": "合并空闲分区"
+      },
+      "question": "在可变分区存储管理中，采用紧凑技术的目的是（）。"
+    },
+    {
+      "id": "os-final-single_choice-8-2",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 8,
+      "answer": "",
+      "options": {
+        "A": "减少",
+        "B": "增加",
+        "C": "无影响",
+        "D": "可能增加也可能减少"
+      },
+      "question": "在请求分页存储管理中，若采用FIFO页面淘汰算法，则当分配的页面数增加时，缺页中断的次数（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-9",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 9,
+      "answer": "",
+      "options": {
+        "A": "每个进程拥有一张页表，且进程的页表驻留在内存中",
+        "B": "每个进程拥有一张页表，但只有当前运行进程的页表驻留在内存中",
+        "C": "所有进程共享一张页表以节约有限的内存，但页表必须驻留在内存中",
+        "D": "所有进程共享一张页表，只有页表中当前使用的页必须驻留在内存中"
+      },
+      "question": "操作系统采用分页存储管理方式，要求（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-12",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 12,
+      "answer": "",
+      "options": {
+        "A": "文件目录查询",
+        "B": "磁盘驱动调度",
+        "C": "磁盘空间管理",
+        "D": "请求分页存储管理中的页面调度"
+      },
+      "question": "位示图方法可用于（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-13",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 13,
+      "answer": "",
+      "options": {
+        "A": "64KB",
+        "B": "128MB",
+        "C": "32MB",
+        "D": "以上都不对"
+      },
+      "question": "文件系统采用两级索引分配方式，若每个物理块的大小是1KB，每个物理块号占4个字节（4B），则该系统中单个文件允许的最大长度是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-14",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 14,
+      "answer": "",
+      "options": {
+        "A": "连续分配",
+        "B": "链接分配",
+        "C": "索引分配",
+        "D": "A~D都适合"
+      },
+      "question": "下面不适合于直接存取的外存分配方式是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-15",
+      "chapter": "期末考试卷（第2套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 15,
+      "answer": "",
+      "options": {
+        "A": "堆栈",
+        "B": "指针",
+        "C": "路径",
+        "D": "目录"
+      },
+      "question": "文件系统采用（ ）组织文件。"
+    },
+    {
+      "id": "os-final-short_answer-2-2",
+      "chapter": "期末考试卷（第2套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 2,
+      "answer": "D",
+      "options": {},
+      "question": "设有一组作业，它们的提交时间及运行时间如下表所示。则在单道方式下，采用短作业优先调度算法，作业的执行顺序是（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-3-2",
+      "chapter": "期末考试卷（第2套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 3,
+      "answer": "C",
+      "options": {},
+      "question": "有m个进程共享一个同类临界资源，如使用信号量解决进程间的互斥问题，则信号量的取值范围为（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-4-2",
+      "chapter": "期末考试卷（第2套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 4,
+      "answer": "A",
+      "options": {},
+      "question": "将逻辑地址转换成物理地址的工作称为（ ），由装入程序实施的这种地址转换方式称为（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-5",
+      "chapter": "期末考试卷（第2套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 5,
+      "answer": "C",
+      "options": {},
+      "question": "常用的可变分区分配算法中，（ ）算法有利于大作业装入，但会使主存低地址和高地址两端的分区利用不均衡。"
+    },
+    {
+      "id": "os-final-short_answer-6",
+      "chapter": "期末考试卷（第2套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 6,
+      "answer": "B",
+      "options": {},
+      "question": "设有8页的逻辑空间，每页有1024字节，它们被映射到32块物理存储区中，那么，逻辑地址的有效位是（ ）位，物理地址至少是（ ）位。"
+    },
+    {
+      "id": "os-final-short_answer-8",
+      "chapter": "期末考试卷（第2套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 8,
+      "answer": "A",
+      "options": {},
+      "question": "从用户的角度看，文件系统的功能是要实现（ ）。"
+    },
+    {
+      "id": "os-final-essay-3-2",
+      "chapter": "期末考试卷（第2套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 3,
+      "answer": "5",
+      "options": {},
+      "question": "某采用页式存储管理的系统，接收了一个共7页的作业，作业执行时依次访问的页为：1、2、3、4、2、1、5、6、2、1、2、3、7 。当内存块数量为4时，请问，若分别采用先进先出（FIFO）置换算法和最近最久未使用（LRU）置换算法，作业执行过程中会产生多少次缺页中断？产生缺页中断后依次应淘汰的页是那些？（注：所有内存开始为空）"
+    },
+    {
+      "id": "os-final-single_choice-2-3",
+      "chapter": "期末考试卷（第3套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 2,
+      "answer": "B",
+      "options": {
+        "A": "先来先服务",
+        "B": "非抢占式短任务优先",
+        "C": "时间片轮转",
+        "D": "高响应比优先"
+      },
+      "question": "下列选项中，满足短任务优先且不会发生饥饿的调度算法是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-3-3",
+      "chapter": "期末考试卷（第3套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 3,
+      "answer": "B",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "question": "某计算机系统中有8台打印机，有K个进程竞争使用，每个进程最多需要3台打印机。该系统可能会发生死锁的K的最小值是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-4-3",
+      "chapter": "期末考试卷（第3套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 4,
+      "answer": "C",
+      "options": {
+        "A": "越界地址保护",
+        "B": "程序代码保护",
+        "C": "数据保护",
+        "D": "栈保护"
+      },
+      "question": "分区分配内存管理方式的主要保护措施是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-5-3",
+      "chapter": "期末考试卷（第3套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 5,
+      "answer": "D",
+      "options": {
+        "A": "2的12次方字节",
+        "B": "2的16次方字节",
+        "C": "2的20次方字节",
+        "D": "2的32次方字节"
+      },
+      "question": "一个分段存储管理系统中，地址长度为32位，其中段号占12位，则段长最大是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-6-3",
+      "chapter": "期末考试卷（第3套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 6,
+      "answer": "D",
+      "options": {
+        "A": "虚拟存储只能基于连续分配技术",
+        "B": "虚拟存储只能基于非连续分配技术",
+        "C": "虚拟存储容量只受外存容量的限制",
+        "D": "虚拟存储容量只受内存容量的限制"
+      },
+      "question": "下列关于虚拟存储的叙述中，正确的是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-8-3",
+      "chapter": "期末考试卷（第3套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 8,
+      "answer": "C",
+      "options": {
+        "A": "当系统处于安全状态时，系统中一定无死锁进程",
+        "B": "银行家算法可以预防死锁",
+        "C": "当系统处于不安全状态时，系统中一定会出现死锁进程",
+        "D": "银行家算法破坏了死锁必要条件中的“请求和保持”条件"
+      },
+      "question": "下列关于银行家算法的叙述中，正确的是（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-1-2",
+      "chapter": "期末考试卷（第3套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 1,
+      "answer": "PCB",
+      "options": {},
+      "question": "一次仅允许一个进程使用的资源称为（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-2-3",
+      "chapter": "期末考试卷（第3套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 2,
+      "answer": "输出井",
+      "options": {},
+      "question": "在引入线程的操作系统中，独立调度和分派的基本单位是线程，资源分配的单位是（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-4-3",
+      "chapter": "期末考试卷（第3套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 4,
+      "answer": "地址越界",
+      "options": {},
+      "question": "内存中各存储单元的地址是从统一的基地址顺序编址，这种地址称为（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-5-2",
+      "chapter": "期末考试卷（第3套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 5,
+      "answer": "15",
+      "options": {},
+      "question": "某虚拟存储器的用户编程空间共32个页面，每页为1KB，内存为16KB。假定某时刻一用户页表中已调入内存的页面的页号和物理块号的对照表如下表，则逻辑地址357所对应的物理地址为（ ），2456所对应的物理地址为（ ）。"
+    },
+    {
+      "id": "os-final-essay-2-2",
+      "chapter": "期末考试卷（第3套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 2,
+      "answer": "C",
+      "options": {},
+      "question": "（4分）处理死锁的四种基本方法是什么？"
+    },
+    {
+      "id": "os-final-essay-1",
+      "chapter": "期末考试卷（第3套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 1,
+      "answer": "A",
+      "options": {},
+      "question": "（6分）在银行家算法的例子中，若出现下述资源分配情况： 试问：（1）该状态是否安全？安全给出安全序列，不安全给出理由。（3分） （2）若进程P2提出请求Request(1，2，2，2)后，系统能否将资源分配给它？（要说明理由，3分）"
+    },
+    {
+      "id": "os-final-essay-2-3",
+      "chapter": "期末考试卷（第3套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 2,
+      "answer": "C",
+      "options": {},
+      "question": "（6分）考虑下述页面走向1，2，3，4，2，1，5，6，2，1，2，3，7，6，3，2，1，2，3，6，当内存块数量为5时，试画出LRU、FIFO这两种置换算法的页面置换图，并计算出它们的缺页率。"
+    },
+    {
+      "id": "os-final-essay-3-3",
+      "chapter": "期末考试卷（第3套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 3,
+      "answer": "D",
+      "options": {},
+      "question": "（10分）考虑一个涉及到如下磁道的按时间有序的请求访问序列，98，183，37，122，14，124，65，67，如果磁头的初始位置在53磁道。试问： （1）若按最短寻找时间优先算法，服务完上述请求序列后，磁头总计移动多少个磁道？ （2）若按先来先服务算法，服务完上述请求序列后，磁头总计要移动多少个磁道？"
+    },
+    {
+      "id": "os-final-single_choice-1-2",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 1,
+      "answer": "临界区",
+      "options": {
+        "A": "盘空间的管理",
+        "B": "盘的驱动调度",
+        "C": "文件目录的查找",
+        "D": "页式虚拟存贮管理中的页面调度"
+      },
+      "question": "位示图方法可用于（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-2-4",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 2,
+      "answer": "0",
+      "options": {
+        "A": "5",
+        "B": "2",
+        "C": "1",
+        "D": "0"
+      },
+      "question": "设有5个进程共享一个互斥段，如果最多允许两个进程同时进入互斥段,则所采用的互斥信号量初值应该是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-4-4",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 4,
+      "answer": "重定位",
+      "options": {
+        "A": "串连结构",
+        "B": "索引结构",
+        "C": "连续结构",
+        "D": "其他结构"
+      },
+      "question": "采用直接存取法来读写盘上的物理记录时，效率最高的是（ ）文件。"
+    },
+    {
+      "id": "os-final-single_choice-5-4",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 5,
+      "answer": "3",
+      "options": {
+        "A": "FCFS",
+        "B": "SSJF",
+        "C": "优先数法",
+        "D": "轮转法"
+      },
+      "question": "最适合分时系统的进程调度算法是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-7-3",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 7,
+      "answer": "",
+      "options": {
+        "A": "静态重定位",
+        "B": "动态重定位",
+        "C": "动态链接",
+        "D": "静态链接"
+      },
+      "question": "如果要使装入内存的目标程序，在内存中移动后能正常运行，必须要有（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-8-4",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 8,
+      "answer": "",
+      "options": {
+        "A": "内存管理",
+        "B": "设备管理",
+        "C": "进程调度",
+        "D": "作业调度"
+      },
+      "question": "决定一个程序是否能占用处理机执行，是由（ ）机构决定的。"
+    },
+    {
+      "id": "os-final-single_choice-9-2",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 9,
+      "answer": "",
+      "options": {
+        "A": "JCB",
+        "B": "线程",
+        "C": "目录",
+        "D": "页表"
+      },
+      "question": "（ ）与进程是一对一的关系，操作系统通过它实现地址变换。"
+    },
+    {
+      "id": "os-final-single_choice-10-2",
+      "chapter": "期末考试卷（第4套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 10,
+      "answer": "",
+      "options": {
+        "A": "FCFS 15次",
+        "B": "LFU 9次",
+        "C": "FIFO 6次",
+        "D": "LRU 8次"
+      },
+      "question": "在页式存储管理方式中，对于一逻辑页面访问请求量，最佳页面置换算法发生10次缺页，推断出其他页面置换算法可能发生的缺页次数如下，最可信的次数是（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-1-3",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 1,
+      "answer": "",
+      "options": {},
+      "question": "进程的状态和优先级信息存放在（ ）中。"
+    },
+    {
+      "id": "os-final-short_answer-3-3",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 3,
+      "answer": "",
+      "options": {},
+      "question": "缓冲的引入可以缓和CPU和I/O设备间（ ）的矛盾。"
+    },
+    {
+      "id": "os-final-short_answer-5-3",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 5,
+      "answer": "",
+      "options": {},
+      "question": "设有8页的逻辑空间，每页1024字节，它们被映射到32块的物理存储区中。则逻辑地址的有效位是（ ）位，物理地址至少是（ ）位。"
+    },
+    {
+      "id": "os-final-short_answer-6-2",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 6,
+      "answer": "",
+      "options": {},
+      "question": "如果系统中有n个进程，则在等待队列中进程的个数最多为（ ）个。"
+    },
+    {
+      "id": "os-final-short_answer-7",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 7,
+      "answer": "",
+      "options": {},
+      "question": "在操作系统中，不可中断执行的操作称为（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-8-2",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 8,
+      "answer": "",
+      "options": {},
+      "question": "如果信号量的当前值为-4，则表示系统中在该信号量上有（ ）个等待进程。"
+    },
+    {
+      "id": "os-final-short_answer-9",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 9,
+      "answer": "",
+      "options": {},
+      "question": "若使当前运行的进程总是优先级最高的进程，应选择（ ）进程调度算法。"
+    },
+    {
+      "id": "os-final-short_answer-10",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 10,
+      "answer": "",
+      "options": {},
+      "question": "并发进程中涉及相同变量的程序段叫做临界区，对这些程序段要执行（ ）操作。"
+    },
+    {
+      "id": "os-final-short_answer-11",
+      "chapter": "期末考试卷（第4套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 11,
+      "answer": "",
+      "options": {},
+      "question": "目前认为逻辑文件有两种类型，即（ ）文件与（ ）文件。"
+    },
+    {
+      "id": "os-final-essay-2-4",
+      "chapter": "期末考试卷（第5套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 2,
+      "answer": "",
+      "options": {},
+      "question": "假设磁盘共有200个柱面，编号从0～199。当前存取臂在120号柱面上服务，并刚刚完成了105号柱面的请求。如果现有进程P1、P2、P3和P4分别请求的柱面号为186、l58、115、90。按下列3种算法调度时，试问：①系统调度的次序是什么？②存取臂移动总量为多少？ （1）先来先服务 （2）最短寻道时间优先 （3）电梯调度算法 期末考试卷（五） 考试时间： 120 分钟 考试形式：（闭卷）"
+    },
+    {
+      "id": "os-final-single_choice-1-3",
+      "chapter": "期末考试卷（第5套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 1,
+      "answer": "",
+      "options": {
+        "A": "节省主存空间",
+        "B": "物理上扩充主存容量",
+        "C": "实现外存共享",
+        "D": "提高CPU效率"
+      },
+      "question": "在存储管理中，采用覆盖与交换技术的目的是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-2-5",
+      "chapter": "期末考试卷（第5套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 2,
+      "answer": "",
+      "options": {
+        "A": "439",
+        "B": "459",
+        "C": "469",
+        "D": "479"
+      },
+      "question": "假设读写磁头正在55号柱面上操作，现有依次请求访问的柱面号为100、185、39、124、16。当55号柱面操作完成后，若采用先来先服务的调度算法，为完成这些请求，磁头需要移动的柱面距离数是（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-6-4",
+      "chapter": "期末考试卷（第5套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 6,
+      "answer": "",
+      "options": {
+        "A": "执行并行操作",
+        "B": "撤消进程",
+        "C": "拒绝分配新资源",
+        "D": "修改信号量"
+      },
+      "question": "采用资源剥夺法可解除死锁，还可以采用（ ）方法解除死锁。"
+    },
+    {
+      "id": "os-final-single_choice-7-4",
+      "chapter": "期末考试卷（第5套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 7,
+      "answer": "",
+      "options": {
+        "A": "启动",
+        "B": "数据传送",
+        "C": "寻找定位",
+        "D": "搜索延迟"
+      },
+      "question": "对磁盘进行移臂调度其目的是缩短（ ）时间。"
+    },
+    {
+      "id": "os-final-single_choice-9-3",
+      "chapter": "期末考试卷（第5套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 9,
+      "answer": "",
+      "options": {
+        "A": "阻塞",
+        "B": "执行",
+        "C": "唤醒",
+        "D": "挂起"
+      },
+      "question": "某进程所要求的一次打印输出结束，该进程被（ ）。"
+    },
+    {
+      "id": "os-final-single_choice-10-3",
+      "chapter": "期末考试卷（第5套） / 单项选择题",
+      "type": "single_choice",
+      "typeName": "单项选择题",
+      "number": 10,
+      "answer": "",
+      "options": {
+        "A": "节省内存",
+        "B": "提高I/O设备的效率",
+        "C": "提高CPU的利用率",
+        "D": "改善CPU和I/O设备之间速度不匹配的情况"
+      },
+      "question": "引入缓冲的主要目的是（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-1-4",
+      "chapter": "期末考试卷（第5套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 1,
+      "answer": "",
+      "options": {},
+      "question": "一次仅允许一个进程使用的资源叫（ ），一个进程访问这类资源的代码叫（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-2-4",
+      "chapter": "期末考试卷（第5套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 2,
+      "answer": "",
+      "options": {},
+      "question": "有n个并发进程竞争必须互斥使用的共享资源时，若某进程作为第一个使用资源者调用P操作后，则这时信号量的值为（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-3-4",
+      "chapter": "期末考试卷（第5套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 3,
+      "answer": "",
+      "options": {},
+      "question": "系统有某类资源20个，供若干进程共享。若每个进程申请该类的资源量不超过4个，为保证系统的安全，应限制共享该类资源的进程数最多不超过（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-4-4",
+      "chapter": "期末考试卷（第5套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 4,
+      "answer": "",
+      "options": {},
+      "question": "在采用多道程序设计技术的系统中，用户编写程序时使用的地址是（ ），装入内存后的地址为（ ），这种地址转换的过程叫做（ ）。"
+    },
+    {
+      "id": "os-final-short_answer-5-4",
+      "chapter": "期末考试卷（第5套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 5,
+      "answer": "",
+      "options": {},
+      "question": "段页式管理中，每取一数据，要访问（ ）次内存。"
+    },
+    {
+      "id": "os-final-short_answer-7-2",
+      "chapter": "期末考试卷（第5套） / 填空/简答题",
+      "type": "short_answer",
+      "typeName": "填空/简答题",
+      "number": 7,
+      "answer": "",
+      "options": {},
+      "question": "设备管理的（ ）功能来实现使用用户所编制的程序与实际使用的物理设备无关。"
+    },
+    {
+      "id": "os-final-essay-1-2",
+      "chapter": "期末考试卷（第5套） / 综合应用题",
+      "type": "essay",
+      "typeName": "综合应用题",
+      "number": 1,
+      "answer": "",
+      "options": {},
+      "question": "（10分）假设某程序的页面访问序列为1、2、3、4、5、2、3、1、2、3、4、5、1、2、3、4且开始执行时主存中没有页面，分配给该程序的物理块数是3，使用下列替换算法，求出现置换的次数及缺页率。（1）FIFO替换算法（2）LRU替换算法。"
+    }
+  ]
+}
